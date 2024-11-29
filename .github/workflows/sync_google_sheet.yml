@@ -7,8 +7,8 @@ on:
 
 jobs:
   sync:
+    if: github.ref == 'refs/heads/main'  # Only run on the main branch
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
