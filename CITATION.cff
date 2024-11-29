@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: Spoken Italian Datasets Collection
+authors:
+  - family-names: Giordano
+    given-names: Marco
+  - family-names: Rinaldi
+    given-names: Claudia
+abstract: >
+  A curated collection of spoken Italian datasets, including metadata,
+  descriptions, and direct links to resources. This collection is intended
+  to support linguistic research and development in speech processing.
+version: 1.0.0
+doi: 10.5281/zenodo.xxxxxxx  # Leave blank for now; Zenodo will provide this
+repository-code: https://github.com/marco-giordano/spoken-italian-datasets
+license: MIT
