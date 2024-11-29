@@ -1,5 +1,7 @@
 # Spoken Italian Datasets Collection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14246196.svg)](https://doi.org/10.5281/zenodo.14246196)
+
 ## Overview
 This repository hosts a curated collection of datasets focused on spoken Italian. The collection is maintained as a Google Sheet to provide easy access and encourage contributions. 
 
@@ -11,12 +13,14 @@ This repository hosts a curated collection of datasets focused on spoken Italian
 ---
 
 ## Access the Collection
-The full collection is available as a Google Sheet:
+The full collection is available at this link:
 
-<!--[View the Google Sheet](https://example-link-to-google-sheet.com)-->
+[View the collection](https://github.com/marco-giordano/spoken-italian-datasets/blob/main/data/spoken_italian_datasets.csv)
+
+A suitable query interface will be realized soon!
 
 ---
-
+<!--
 ## Explore with Jupyter Notebook
 Use the included Jupyter Notebook to:
 - Search and filter datasets.
