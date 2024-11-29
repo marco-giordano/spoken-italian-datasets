@@ -10,6 +10,6 @@ abstract: >
   descriptions, and direct links to resources. This collection is intended
   to support linguistic research and development in speech processing.
 version: 1.0.0
-doi: 10.5281/zenodo.xxxxxxx  # Leave blank for now; Zenodo will provide this
+doi: 10.5281/zenodo.14246196
 repository-code: https://github.com/marco-giordano/spoken-italian-datasets
 license: MIT
