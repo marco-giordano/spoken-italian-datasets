@@ -28,19 +28,18 @@ jobs:
         SERVICE_ACCOUNT_JSON: ${{ secrets.SERVICE_ACCOUNT_JSON }}
       run: python fetch_google_sheet.py
 
-- name: Commit and Push Changes
-  run: |
-    git config --global user.name "github-actions"
-    git config --global user.email "actions@github.com"
-    git add data/spoken_italian_datasets.csv
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "actions@github.com"
+        git add data/spoken_italian_datasets.csv
 
-    # Check if there are changes to commit
-    if git diff-index --quiet HEAD; then
-      echo "No changes detected. Skipping commit and push."
-    else
-      git commit -m "Update Google Sheet data"
-      git push
-    fi
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+        if git diff-index --quiet HEAD; then
+          echo "No changes detected. Skipping commit and push."
+        else
+          echo "Changes detected. Committing and pushing updates."
+          git commit -m "Update Google Sheet data"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
