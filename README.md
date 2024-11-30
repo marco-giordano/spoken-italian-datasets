@@ -10,6 +10,29 @@ This repository hosts a curated collection of datasets focused on spoken Italian
 - **Interactive Access**: Explore the collection interactively via a Jupyter Notebook.
 - **Community Contributions**: Open to contributions for adding or updating datasets.
 
+### Dataset Features Mapped
+- **Name**
+- **Publisher/Promoter**
+- **Size**: number of hours, dimension in *byte,...
+- **Format**: encoding, meta-file availability...
+- **Source and Context**: broadcast media, Telephone speech, Social Media & Online Platforms, Field Recordings...
+- **Type of Speech**: conversational, monologues, spontaneous, read...
+- **Regional Varieties**: dialects, idioms...
+- **Socioinguistic variations**: age, gender, socio-economic status.
+- **Multilingual Corpus**: if belongs to wider multilingual corpora.
+- **Data Collection**: Characteristics of data collection process.
+- **Recording Methods**: mic tech, sampling rate, bit depth, environment control.
+- **Participant Selection**: age, region, language proficiency.
+- **Transcription Standard**: orthographic, phonetic...
+- **Annotation Levels**: Lexical, syntactic, prosodic...
+- **Tools and Software Used**
+- **Quality Control and Validation**: data quality, consistency, reliability
+- **Availability**: type of access, if open or restricted. Type of license.
+- **URL**
+- **Paper**
+- **Other**
+
+
 ---
 
 ## Access the Collection
